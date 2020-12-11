@@ -6,8 +6,9 @@ int main() {
 	int k = 3;
 
 	bool flag = containsDuplicate(nums, n);
-
+	// Testing results
 	if (flag) printf("Contains duplicates");
 	else printf("Does not contain duplicates");
+
 	return 0;
 }
